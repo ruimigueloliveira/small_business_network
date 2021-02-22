@@ -1,0 +1,27 @@
+
+PCS
+
+ip (ip) (mask) (gateway)
+ipv6 (ip)/(mask) (gateway)
+save
+sh ip		// Para ver o ip
+sh ipv6		// Para ver o ipv6
+<---------------------------------------->
+
+Switch L2
+
+Vlan 1 -> dot1q
+<---------------------------------------->
+
+Switch L3F
+
+vlan database
+vlan 2
+vlan 3		// adicionar as vlans
+...
+vlan 5
+write
+
+Switch L3C
+
+
